@@ -83,8 +83,100 @@ header{
   padding-top:100px;
 }
 
+.select{
+  color:red;
+}
+
 .heading-text h2{
-  color: white;
+  color: blue;
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
+}
+
+
+.main{
+  height: 450px;
+  padding-bottom: 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+
+/* product */
+.header-main{
+  padding: 50px 0 50px 0;
+}
+
+.product{
+  margin: 0 auto;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.product-list{
+  float: left;
+  width: 25%;
+}
+
+.product-icon{
+  position: relative;
+}
+
+.product-icon img{
+  height: 200px;
+}
+
+.product-icon p{
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.product-icon:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.txt-content {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+/* message product */
+
+.message-product{
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+
+.message{
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn{
+  padding: 13px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  opacity: 1;
+  margin-top: 20px;
+}
+
+.btn:hover{
+  opacity: 0.6;
 }
