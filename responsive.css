@@ -38,10 +38,11 @@
 	.heading{
 		background-image: none;
 		background-color: black;
+		padding: 50px 50px 50px 50px;
 	}
 
 	.main{
-		height: 1350px;
+		height: 1400px;
 		background-color: #f7f7f7;
 		text-align: center;
 	}
