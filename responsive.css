@@ -1,0 +1,81 @@
+@media all and (max-width: 1000px){
+	.product-list{
+		width: 50%;
+		margin-bottom: 20px;
+	}
+
+	.heading h1{
+		font-size: 32px;
+
+	}
+
+	.service-list{
+		width: 50%;
+		margin-bottom: 50px;
+	}
+
+	.main{
+		height: 740px;
+		background-color: #f7f7f7;
+		text-align: center;
+	}
+
+}
+
+@media all and (max-width: 670px){
+	.product-list{
+		width: 100%;
+	}
+
+	.heading h1{
+		color: white;
+	}
+
+	.heading h2{
+		color: white;
+	}
+
+	.heading{
+		background-image: none;
+		background-color: black;
+	}
+
+	.main{
+		height: 1350px;
+		background-color: #f7f7f7;
+		text-align: center;
+	}
+
+	.message-product{
+		padding-bottom: 10px;
+		padding-top: 10px;
+		display: inline-block;
+
+	}
+
+	.service-list{
+		width: 100%;
+	}
+
+	.footer-logo{
+		text-align: center;
+	}
+
+	.btn{
+		width: 100%;
+	}
+
+	.contact-form{
+		width: 90%;
+		text-align: center;
+		margin: 5%;
+	}
+
+	input{
+		width: 90%;
+
+	}
+	textarea{
+		width: 90%;
+	}
+}
